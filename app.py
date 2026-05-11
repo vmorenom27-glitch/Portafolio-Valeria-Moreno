@@ -8,20 +8,16 @@ st.set_page_config(
 )
 
 APPS = [
-    {"nombre": "RAG — Chat con PDF", "desc": "Agente inteligente que analiza y responde preguntas sobre documentos PDF usando recuperacion aumentada.", "url": "https://chatpdfsalorivero.streamlit.app", "emoji": "🤖", "tag": "NLP · OpenAI"},
+    {"nombre": "RAG — Chat con PDF", "desc": "Agente inteligente que analiza y responde preguntas sobre documentos PDF usando recuperacion aumentada.", "url": "https://99aqcjkqz6yv9qjct4aveb.streamlit.app", "emoji": "🤖", "tag": "NLP · OpenAI"},
     {"nombre": "Control por Voz", "desc": "Interfaces multimodales que transcriben comandos de voz en tiempo real usando reconocimiento automatico.", "url": "https://ctrlvoicesrd.streamlit.app", "emoji": "🎙️", "tag": "Audio · Speech"},
     {"nombre": "Tablero Inteligente", "desc": "Dibuja un boceto en el panel y la IA lo interpreta, genera descripciones e historias sobre el dibujo.", "url": "https://drawrecogsrd.streamlit.app", "emoji": "🎨", "tag": "Vision · GPT-4"},
     {"nombre": "Reconocimiento de Digitos", "desc": "Red neuronal artificial que reconoce digitos escritos a mano dibujados directamente en el canvas.", "url": "https://handwsrd.streamlit.app", "emoji": "✍️", "tag": "RNA · MNIST"},
-    {"nombre": "OCR + Audio", "desc": "Reconocimiento optico de caracteres que extrae texto de imagenes con camara o archivo y lo convierte a audio.", "url": "https://ocraudiord.streamlit.app", "emoji": "🔊", "tag": "OCR · TTS"},
-    {"nombre": "Reconocimiento de Identidad", "desc": "OCR aplicado a documentos de identidad, extrae y organiza la informacion de cedulas colombianas.", "url": "https://ocrsalorivero.streamlit.app", "emoji": "🪪", "tag": "OCR · Docs"},
-    {"nombre": "MQTT Control Dashboard", "desc": "Dashboard web para controlar dispositivos IoT en tiempo real mediante el protocolo MQTT.", "url": "https://sendcmqttsalorivero.streamlit.app", "emoji": "📡", "tag": "IoT · MQTT"},
-    {"nombre": "Analisis de Sentimiento", "desc": "Analiza la polaridad y subjetividad de textos, determina si el sentimiento es positivo, negativo o neutro.", "url": "https://sentimentasalo.streamlit.app", "emoji": "😊", "tag": "NLP · TextBlob"},
+    {"nombre": "OCR + Audio", "desc": "Reconocimiento optico de caracteres que extrae texto de imagenes con camara o archivo y lo convierte a audio.", "url": "https://ocraudiosrd.streamlit.app", "emoji": "🔊", "tag": "OCR · TTS"},
+    {"nombre": "Analisis de Sentimiento", "desc": "Analiza la polaridad y subjetividad de textos, determina si el sentimiento es positivo, negativo o neutro.", "url": "https://tuckwc2itphatfncwb7asb.streamlit.app", "emoji": "😊", "tag": "NLP · TextBlob"},
     {"nombre": "TF-IDF en Espanol", "desc": "Demo que compara documentos usando TF-IDF para encontrar el mas relevante segun una pregunta en espanol.", "url": "https://tdfespsrd.streamlit.app", "emoji": "🔍", "tag": "NLP · TF-IDF"},
-    {"nombre": "Traductor por Voz", "desc": "Escucha lo que dices y traduce tu voz de forma automatica entre multiples idiomas al instante.", "url": "https://traductorvoazatextosrd.streamlit.app", "emoji": "🌐", "tag": "Audio · Translate"},
-    {"nombre": "Analisis de Imagen", "desc": "Vision App que describe imagenes de forma inteligente usando modelos multimodales de OpenAI.", "url": "https://visionappsalorivero.streamlit.app", "emoji": "🖼️", "tag": "GPT-4V · Vision"},
-    {"nombre": "Reconocimiento Optico OCR", "desc": "Elige la fuente de imagen, camara o archivo, y extrae el texto visible usando OCR con traduccion.", "url": "https://ocraudiord.streamlit.app", "emoji": "📄", "tag": "OCR · Camera"},
-    {"nombre": "TF-IDF en Ingles", "desc": "Version en ingles del demo de busqueda semantica con TF-IDF sobre documentos de texto libre.", "url": "https://salolamejor.streamlit.app", "emoji": "📊", "tag": "NLP · Search"},
-    {"nombre": "Word Cloud", "desc": "Genera nubes de palabras visuales a partir de cualquier texto, resaltando las palabras mas frecuentes.", "url": "https://salolamejor.streamlit.app", "emoji": "☁️", "tag": "Viz · NLP"},
+    {"nombre": "Traductor por Voz", "desc": "Escucha lo que dices y traduce tu voz de forma automatica entre multiples idiomas al instante.", "url": "https://traductorvozatextosrd.streamlit.app", "emoji": "🌐", "tag": "Audio · Translate"},
+    {"nombre": "Analisis de Imagen", "desc": "Vision App que describe imagenes de forma inteligente usando modelos multimodales de OpenAI.", "url": "https://interpretacion-de-imagenes-dk3usrlcblnx3xeueaydl6.streamlit.app", "emoji": "🖼️", "tag": "GPT-4V · Vision"},
+    {"nombre": "Reconocimiento Optico OCR", "desc": "Elige la fuente de imagen, camara o archivo, y extrae el texto visible usando OCR con traduccion.", "url": "https://fjgt24nkkwrws6e6kyvnkb.streamlit.app", "emoji": "📄", "tag": "OCR · Camera"},
 ]
 
 st.markdown("""
@@ -78,7 +74,7 @@ st.markdown("""
     <h1>Valeria <span class="yellow">Moreno</span></h1>
     <p class="hero-sub">Aplicaciones construidas con Python, Streamlit y modelos de inteligencia artificial</p>
     <div class="hero-stats">
-        <div class="stat-box"><span class="stat-num">14</span><span class="stat-label">Proyectos</span></div>
+        <div class="stat-box"><span class="stat-num">10</span><span class="stat-label">Proyectos</span></div>
         <div class="stat-box"><span class="stat-num">5</span><span class="stat-label">Tecnologias</span></div>
         <div class="stat-box"><span class="stat-num">1</span><span class="stat-label">Semestre</span></div>
     </div>
